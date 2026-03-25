@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mon Portfolio</title>
+
+  <!-- Font Awesome (icônes) -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  
+/>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+  <header>
+  <div class="header-inner">
+    <div class="logo">Port<span>folio</span></div>
+
+    <nav class="menu-box">
+      <ul>
+        <li><a href="#home" >ACCUEIL</a></li>
+        <li><a href="#about">À PROPOS</a></li>
+        <li><a href="#skills">COMPÉTENCES</a></li>
+        <li><a href="projects.html">PROJETS</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="lang-toggle">
+      <i class="fa-solid fa-globe"></i>
+      <select id="languageSelect">
+        <option value="fr">FR</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+
+  <section id="home" class="hero">
+    <div class="content">
+      <h1>Bonjour, <br>  <span class="name">Développeur Full-Stack</span><span class="cursor">|</span>
+      
+      </h1>
+      <p>
+        Résident en France, je conçois avec passion des expériences web
+        <span class="highlight">immersives</span> et interactives.
+      </p>
+      <a href="#contact" class="cta">Restons en contact</a>
+    </div>
+    <canvas id="particles"></canvas>
+  </section>
+
+  <!-- SECTION À PROPOS DE MOI POUR LA BIOGRAPHIE-->
+  <section id="about" class="about-section">
+  <div class="about-container">
+    
+    <div class="about-text">
+      <h2>À propos de <span class="highlight">moi</span></h2>
+
+<p>
+Développeuse web & mobile <span class="highlight">junior</span> en reconversion, je découvre chaque jour avec passion l’univers du code et de la création numérique.
+</p>
+
+<p>
+Débutante, certes, mais <span class="highlight">déterminée</span> à progresser, je m’investis pleinement pour apprendre, créer et donner vie à des projets <span class="highlight">utiles</span> et <span class="highlight">modernes</span>.
+</p>
+    </div>
+
+    <div class="skills">
+      <h3 class="highlight">Mes compétences</h3>
+      <div class="skill">
+        <span>Frontend Development</span>
+        <div class="bar"><div class="progress" style="width: 95%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Backend Development</span>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Mobile Development</span>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>API & Cloud</span>
+        <div class="bar"><div class="progress" style="width: 50%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>UI/UX Design</span>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <span>Database Design</span>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!--  FIN SECTION À PROPOS -->
+<!-- SECTION SKILLS -->
+<section id="skills" class="skills-section">
+  <h2 class="section-title">Technologies <span class="highlight">maîtrisées</span></h2>
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h3>React</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 85%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Next.js</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>TypeScript</h3>
+      <span class="level beginner">Débutant</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Node.js</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>React Native</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 75%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>MongoDB</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 80%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Vue.js</h3>
+      <span class="level beginner">Débutant</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 40%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Python</h3>
+      <span class="level beginner">Débutant</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
+    </div>
+
+<div class="skill-card">
+      <h3>Html/CSS</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Javascript</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Tailwind CSS</h3>
+      <span class="level beginner">Débutant</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 30%;"></div></div>
+    </div>
+
+    <div class="skill-card">
+      <h3>Vercel</h3>
+      <span class="level advanced">Avancé</span>
+      <div class="progress-bar"><div class="progress-fill" style="width: 70%;"></div></div>
+    </div>
+
+  </div>
+</section>
+  <script src="particle.js"></script>
+
+<!-- Scroll Spy (menu actif au scroll) -->
+<script>
+  const sections = document.querySelectorAll("section[id]");
+  const navLinks = document.querySelectorAll(".menu-box a");
+
+  function setActive(id) {
+    const navLink = document.querySelector(
+      `.menu-box a[href="#${id}"], .menu-box a[href$="index.html#${id}"]`
+    );
+    if (!navLink) return;
+
+    navLinks.forEach(link => link.classList.remove("active"));
+    navLink.classList.add("active");
+  }
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      setActive(entry.target.getAttribute("id"));
+    });
+  }, {
+    rootMargin: "-50% 0px -50% 0px",
+    threshold: 0
+  });
+
+  sections.forEach(section => observer.observe(section));
+
+  // ✅ Fix: si on est tout en bas, on active Contact
+  window.addEventListener("scroll", () => {
+    const bottom =
+      window.innerHeight + window.scrollY >= document.body.offsetHeight - 2;
+    if (bottom) setActive("contact");
+  });
+
+  // Active le link
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      navLinks.forEach(l => l.classList.remove("active"));
+      link.classList.add("active");
+    });
+  });
+</script>
+
+
+
+
+<!-- ===== SECTION CONTACT ===== -->
+<section id="contact" class="contact-section">
+  <h2 class="section-title">Travaillons <span class="highlight">ensemble</span></h2>
+  <p class="intro-text">Vous avez un projet en tête ? N’hésitez pas à me contacter pour en discuter et donner vie à vos idées.</p>
+
+  <div class="contact-container">
+    <!-- Partie gauche : infos personnelles -->
+    <div class="contact-info">
+      <h3>Restons en contact</h3>
+      <p>Que ce soit pour un projet web, une application mobile ou simplement échanger sur vos idées, je serai ravie de collaborer.</p>
+
+      <div class="info-item">
+<i class="fa-solid fa-envelope"></i>        <span>amel_bennaceur@outlook.com</span>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>+33 6 67 67 94 16</span>
+      </div>
+      <div class="info-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Nice, France</span>
+      </div>
+
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/amel-bennaceur-532873265" target="_blank" aria-label="LinkedIn"> 
+          <i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/nymphab" target= "_blank" aria-label="LinkedIn"> 
+        <i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
+    <!-- Partie droite : formulaire -->
+    <form id="contact-form" class="contact-form">
+      <h3>Envoyez-moi un message</h3>
+      <input type="text" name="name" placeholder="Nom" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="subject" placeholder="Sujet">
+      <textarea name="message" placeholder="Votre message..." required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+</section>
+
+<!-- Script EmailJS -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("7Wcwp8f4TX8FEL1zK");
+  })();
+
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    emailjs.sendForm('service_wxvwda8', 'template_xnw57sg', this)
+      .then(() => alert('✅ Message envoyé !'))
+      .catch(() => alert('❌ Une erreur est survenue'));
+  });
+</script>
+
+<footer class="footer">
+  <div class="footer-container">  
+
+    <!-- Colonne gauche : infos personelles -->
+    <div class="footer-info">
+      <h3>nymphab.dev</h3>
+      <p>🇫🇷 Basée en France</p>
+      <p class="copyright">© 2026 Amel. Tous droits réservés.</p>
+    </div>
+
+    <!-- Colonne centrale : description -->
+    <div class="footer-desc">
+      <p>Portfolio designé et développé avec passion.</p>
+      <p>React • HTML/CSS • JavaScript • Node.js</p>
+    </div>
+
+    <!-- Colonne droite : réseaux sociaux -->
+    <div class="footer-socials">
+  <a href="https://github.com/nymphab" target="_blank" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/amel-bennaceur-532873265" target="_blank" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+
+  <a href="http://discordapp.com/users/111038778271255629" target="_blank" aria-label="Discord">
+    <i class="fa-brands fa-discord"></i>
+  </a>
+</div>
+
+
+  </div>
+</footer>
+
+
+<script src="lang.js"></script>
+
+
+
+</body>
+</html>
+
+
+
+
+

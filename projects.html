@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mes Projets - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+  <div class="header-inner">
+    <div class="logo">Port<span>folio</span></div>
+
+    <nav class="menu-box">
+      <ul>
+        <!-- ICI on revient vers index.html -->
+        <li><a href="index.html#home" >ACCUEIL</a></li>
+        <li><a href="index.html#about">À PROPOS</a></li>
+        <li><a href="index.html#skills">COMPÉTENCES</a></li>
+        <li><a href="projects.html#projects"class="active">PROJETS</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+
+    <div class="lang-toggle">
+      <i class="fa-solid fa-globe"></i>
+      <select id="languageSelect">
+        <option value="fr">FR</option>
+        <option value="en">EN</option>
+      </select>
+    </div>
+  </div>
+</header>
+
+  <section id="projects" class="projects-page">
+  <div class="projects-page-header">
+    <h1 class="section-title big-title">Projects</h1>
+    <p class="section-subtitle">
+      Voici un aperçu de quelques projets sur lesquels j'ai travaillé.
+    </p>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- Carte 1 -->
+    <article class="project-card card-moove">
+      <div class="project-icon project-icon-purple">
+        <i class="fa-solid fa-mobile-screen-button"></i>
+      </div>
+
+      <h3 class="project-title">Moove It — App mobile</h3>
+      <p class="project-description">
+        Application mobile de coaching sportif qui connecte les sportifs amateurs
+        entre eux. Interface moderne, gestion d’utilisateurs et affichage
+        dynamique des données.
+      </p>
+
+      <div class="project-tags">
+        <span class="tag tag-react">React Native</span>
+        <span class="tag tag-node">Node.js</span>
+        <span class="tag tag-db">MongoDB</span>
+        
+      </div>
+
+      <div class="project-learning">
+        <div class="learning-icon">
+          <i class="fa-regular fa-lightbulb"></i>
+        </div>
+        <div>
+          <p class="learning-title">Apprentissage</p>
+          <p class="learning-text">
+            Gestion d’état, communication avec une API, design responsive et
+            expérience utilisateur sur mobile.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-actions">
+        <a href="https://mooveit.ovh/" target="_blank" class="btn-project solid">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span>Demo</span>
+        </a>
+      </div>
+    </article>
+
+    <!-- Carte 2  -->
+    <!-- Carte Bloom (Python) -->
+<article class="project-card card-bloom">  
+  <div class="project-icon project-icon-bloom">
+    <i class="fa-solid fa-seedling"></i>
+
+  </div>
+
+  <h3 class="project-title">Bloom — Python Art</h3>
+  <p class="project-description">
+    Animation générative en Python (Turtle) : une fleur moderne qui se dessine
+    progressivement, avec un effet “bloom” et des transitions fluides.
+  </p>
+
+  <div class="project-tags">
+    <span class="tag tag-python">Python</span>
+    <span class="tag tag-art">Turtle</span>
+    <span class="tag tag-ui">Animation</span>
+  </div>
+
+  <div class="project-learning">
+    <div class="learning-icon">
+      <i class="fa-regular fa-lightbulb"></i>
+    </div>
+    <div>
+      <p class="learning-title">Apprentissage</p>
+      <p class="learning-text">
+        Gestion du timing, tracés progressifs, composition visuelle et optimisation
+        des mouvements pour un rendu plus “cinématique”.
+      </p>
+    </div>
+  </div>
+
+  <div class="project-actions single">
+  <a href="https://github.com/nymphab/bloom" target="_blank" class="btn-project solid">
+    <i class="fa-brands fa-github"></i>
+    <span>Code</span>
+  </a>
+</div>
+
+</article>
+
+
+
+  <!-- Icône -->
+  <!-- Card projet : Pacman (même style que Bloom) -->
+<article class="project-card card-pacman"> 
+  <div class="project-icon project-icon-pacman">
+    <i class="fa-solid fa-desktop"></i>
+  </div>
+
+  <h3 class="project-title">Pacman</h3>
+
+  <p class="project-description">
+    Jeu Pac-Man réalisé en <strong>JavaScript</strong>, avec une grille interactive,
+    déplacements fluides et logique de collision. Une approche ludique pour approfondir la structuration du code.
+  </p>
+
+  <div class="project-tags">
+    <span class="tag tag-js">JavaScript</span>
+    <span class="tag tag-html">HTML</span>
+    <span class="tag tag-css">CSS</span>
+  </div>
+
+  <div class="project-learning">
+  <div class="learning-icon">
+<i class="fa-regular fa-lightbulb"></i>  </div>
+  <div>
+      <div class="learning-title">Apprentissage</div>
+      <div class="learning-text">
+        Gestion des déplacements, collisions, score, logique de grille et animations simples. Une approche ludique pour approfondir la logique JavaScript et la structuration du code.
+      </div>
+    </div>
+  </div>
+
+  <div class="project-actions">
+  <a
+    href="https://github.com/nymphab/pacman"
+    class="btn-project solid"
+    target="_blank"
+    rel="noreferrer"
+  >
+    <i class="fa-brands fa-github"></i>
+    Code
+  </a>
+</div>
+
+</article>
+
+
+
+</section>
+
+<canvas id="particles"></canvas>
+
+<script src="particle.js"></script>
+<script src="lang.js"></script>
+
+
+</body>
+</html>
